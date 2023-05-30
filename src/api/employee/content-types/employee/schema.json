@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employees",
+  "info": {
+    "singularName": "employee",
+    "pluralName": "employees",
+    "displayName": "Employee",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "surname": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "patranomyc": {
+      "type": "string"
+    },
+    "password": {
+      "type": "password"
+    },
+    "login": {
+      "type": "string"
+    }
+  }
+}
