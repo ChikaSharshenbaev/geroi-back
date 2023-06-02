@@ -26,6 +26,22 @@
     },
     "login": {
       "type": "string"
+    },
+    "role": {
+      "type": "integer"
+    },
+    "birthdate": {
+      "type": "date"
+    },
+    "created": {
+      "type": "date"
+    },
+    "deleted": {
+      "type": "boolean",
+      "default": false
+    },
+    "deletedDate": {
+      "type": "string"
     }
   }
 }
